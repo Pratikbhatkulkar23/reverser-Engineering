@@ -1,0 +1,49 @@
+control unit <-> execution unit <-> registers 
+
+general purpuse register
+
+8 bit -> 1 byte
+
+RAX ,RBX,RCX,RDX
+64
+
+32bit -EAX 
+
+16bit-AX (AH,AL)
+
+
+
+
+
+64-RSI,RDI,RBP,RSP 
+32-ESI,EDI,EBP,ESP
+16-SI,DI,BP,SP
+
+
+64-R8,R9,R10,R11 
+32-R8D,R9D,R10D,R11D
+16-R8W,R9W,R10W,R11W
+
+
+64-RIP (instruction ponter or program counter) -> next intruction execution
+32-EIP  
+
+system call _->                                      
+user mode -> kernel model -> cpu -> memory->devices
+
+
+user space  ->system call -> kernal -> RAM ->CPU
+ process
+
+
+1)check system call in system commend
+-sudo cat /usr/include/x86_64-linux-gnu/asm/unistd_32.h
+2)check manual of system call
+ man 2 write
+ 3) input-0  ouput-1 error - 2
+ 4) progrma run proper given status code print in exit sysemcall  
+   print status code use commend is -> echo $?
+   
+   
+   
+ 

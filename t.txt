@@ -1,0 +1,3 @@
+txte section - code 
+data section - intial variable (declear variable)
+bss section - unintial variable (undeclear variable)

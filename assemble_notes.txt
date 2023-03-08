@@ -1,0 +1,70 @@
+mov [destination],[source]
+mov rax,0X1 
+mov rbx,0xa
+register value overwrite hota
+
+ADD [destination],[source]
+ADD RAX,0x1
+
+
+SUB  [destination],[source]
+
+
+CMP [jis chiz ko check karn gea][jis chiz check karn hai vo ya]
+input = passowrd
+
+CMP [12345],[password]
+
+output of  compare store in ZF(zero flag)
+
+CMP thing is true in ZF store 1
+CMP thing is flase in ZF store 0
+
+
+TEST instruction 
+TEST [destination],[source]
+-> check value zero or not 
+use bitwise logical end
+
+JMP [DESTINATION]  -> uncondioton jump
+JMP 0x0804d6e2
+
+JE/JZ [destination] ->condtional jump
+JE chcek zf value one  then he jump otherwase no jump
+
+JNE/JNZ --
+JNE [destination]
+JNE[jump not equal]
+JNZ[jump not ]
+JNE jump when ZF value is zero
+check value in zero flage 
+
+
+call 
+call [destionaion]
+
+RET retun 
+
+CALL 0x0804d6e2
+RET 0x0804d6e2
+
+
+
+
+syscall 
+
+check frist value in RAX(konsi number system call karych aaahe)
+next argument we use RDI RSI RDx R8 R9 R10
+
+
+
+label use in jump 
+jmp user_name
+
+after input value in syscall returrn input value store into rax register
+
+
+
+
+
+
